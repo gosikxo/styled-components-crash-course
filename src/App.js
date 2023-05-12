@@ -1,8 +1,10 @@
-function App() {
+import { Container } from './components/styles/Container.style.js';
+
+function App () {
   return (
-    <div className="App">
-     <h1>Hi</h1>
-    </div>
+    <Container>
+      <h1>Hi</h1>
+    </Container>
   );
 }
 
